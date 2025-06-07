@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: hi-events
+    name: garba
     plan: free
     autoDeploy: false
     runtime: docker
@@ -27,5 +27,5 @@ services:
       - key: FILESYSTEM_PRIVATE_DISK
         value: local
 databases:
-  - name: hi-events-db
+  - name: garba-db
     plan: free
