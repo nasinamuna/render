@@ -13,7 +13,7 @@ services:
           name: garba-db
           property: connectionString
       - key: APP_KEY
-        value: base64:G/ZFls3twiNLjiGrC0W2Zs475ZWxH4UsuvAV4u24wOE=
+        sync: false
       - key: JWT_SECRET
         generateValue: true
       - key: LOG_CHANNEL
