@@ -1,4 +1,4 @@
-FROM sohamshahhh/hi-events-app
+FROM sohamshahhh/build1
 
 COPY render-start.sh /render-start.sh
 RUN chmod +x /render-start.sh
