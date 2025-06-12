@@ -10,7 +10,7 @@ services:
         value: 80
       - key: DATABASE_URL
         fromDatabase:
-          name: hi-events-db
+          name: garba-db
           property: connectionString
       - key: APP_KEY
         value: base64:G/ZFls3twiNLjiGrC0W2Zs475ZWxH4UsuvAV4u24wOE=
