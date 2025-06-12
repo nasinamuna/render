@@ -1,4 +1,4 @@
-FROM sohamshahhh/build1
+FROM sohamshahhh/image3
 
 COPY render-start.sh /render-start.sh
 RUN chmod +x /render-start.sh
